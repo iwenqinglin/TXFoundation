@@ -13,10 +13,8 @@
 		40EAA0AD2459DD590071228E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EAA0AB2459DD590071228E /* Main.storyboard */; };
 		40EAA0AF2459DD590071228E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EAA0AE2459DD590071228E /* Assets.xcassets */; };
 		40EAA0B22459DD590071228E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EAA0B02459DD590071228E /* LaunchScreen.storyboard */; };
-		40EAA0D62459DDD20071228E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 40EAA0D22459DDD20071228E /* .gitkeep */; };
-		40EAA0D72459DDD20071228E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 40EAA0D42459DDD20071228E /* .gitkeep */; };
-		40EAA0D82459DDD20071228E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EAA0D52459DDD20071228E /* ReplaceMe.m */; };
 		40EAA0DA2459DDDD0071228E /* TXFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 40EAA0D92459DDDD0071228E /* TXFoundation.podspec */; };
+		40EAA0DD2459DFA90071228E /* TXCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EAA0DC2459DFA90071228E /* TXCentralManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +28,9 @@
 		40EAA0AE2459DD590071228E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40EAA0B12459DD590071228E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40EAA0B32459DD590071228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40EAA0D22459DDD20071228E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		40EAA0D42459DDD20071228E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		40EAA0D52459DDD20071228E /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		40EAA0D92459DDDD0071228E /* TXFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TXFoundation.podspec; path = ../TXFoundation.podspec; sourceTree = "<group>"; };
+		40EAA0DB2459DFA90071228E /* TXCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCentralManager.h; sourceTree = "<group>"; };
+		40EAA0DC2459DFA90071228E /* TXCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCentralManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +99,6 @@
 		40EAA0D12459DDD20071228E /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				40EAA0D22459DDD20071228E /* .gitkeep */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -110,8 +106,8 @@
 		40EAA0D32459DDD20071228E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				40EAA0D42459DDD20071228E /* .gitkeep */,
-				40EAA0D52459DDD20071228E /* ReplaceMe.m */,
+				40EAA0DB2459DFA90071228E /* TXCentralManager.h */,
+				40EAA0DC2459DFA90071228E /* TXCentralManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -177,10 +173,8 @@
 			files = (
 				40EAA0B22459DD590071228E /* LaunchScreen.storyboard in Resources */,
 				40EAA0AF2459DD590071228E /* Assets.xcassets in Resources */,
-				40EAA0D72459DDD20071228E /* .gitkeep in Resources */,
 				40EAA0DA2459DDDD0071228E /* TXFoundation.podspec in Resources */,
 				40EAA0AD2459DD590071228E /* Main.storyboard in Resources */,
-				40EAA0D62459DDD20071228E /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40EAA0D82459DDD20071228E /* ReplaceMe.m in Sources */,
 				40EAA0AA2459DD590071228E /* ViewController.m in Sources */,
+				40EAA0DD2459DFA90071228E /* TXCentralManager.m in Sources */,
 				40EAA0A72459DD590071228E /* AppDelegate.m in Sources */,
 				40EAA0A42459DD590071228E /* main.m in Sources */,
 			);
